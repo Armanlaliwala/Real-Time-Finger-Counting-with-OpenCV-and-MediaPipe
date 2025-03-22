@@ -4,10 +4,10 @@
 
 ## 🚀 Project Overview
 This project uses **OpenCV** and **MediaPipe** to detect and count fingers in real-time. It supports:
-- 🎯 **One-hand detection** with finger counting.
-- ✋ **Both-hand detection** with individual and total finger count.
+- 🎯 **One-hand and Both-hand detection** with finger counting.
+- ✋ **Accurate individual and total finger count**.
 - 🎥 **External camera support** (e.g., mobile camera) for better video quality.
-- 💾 **Video recording** of the processed output with stable FPS and H.264 codec for high-quality playback.
+- 💾 **Video recording** with stable FPS and H.264 codec for high-quality playback.
 
 ---
 
@@ -16,7 +16,7 @@ This project uses **OpenCV** and **MediaPipe** to detect and count fingers in re
 ✅ Displays individual finger count for **left** and **right** hands.  
 ✅ Shows the **total finger count**.  
 ✅ Supports **external camera** (mobile) for better quality.  
-✅ Saves the processed video in `.mp4` format.  
+✅ Saves the processed video in `.mp4` format using H.264 codec.  
 
 ---
 
@@ -33,8 +33,8 @@ This project uses **OpenCV** and **MediaPipe** to detect and count fingers in re
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/finger-counter.git
-cd finger-counter
+git clone https://github.com/Armanlaliwala/Real-Time-Finger-Counting-with-OpenCV-and-MediaPipe.git
+cd Real-Time-Finger-Counting-with-OpenCV-and-MediaPipe
 ```
 
 ### 2. Create a virtual environment
@@ -58,25 +58,10 @@ pip install -r requirements.txt
 
 ## 🚀 Usage
 
-### 🎥 1. One-Hand Detection (Laptop Camera)
-To detect and count fingers using your laptop camera:
+### 🎥 Run Finger Counting (External Camera)
+To detect and count fingers using your mobile camera:
 ```bash
-python one_hand_laptop_cam.py
-```
-
-### ✋ 2. Both-Hands Detection (Laptop Camera)
-To detect and count fingers for both hands using your laptop camera:
-```bash
-python both_hands_laptop_cam.py
-```
-
-### 📱 3. Both-Hands Detection (External Camera)
-To use your mobile phone camera:
-1. Connect your phone using **DroidCam** or **Iriun**.
-2. Identify the camera ID (e.g., `2` or `3`).
-3. Run:
-```bash
-python both_hands_external_cam.py
+python finger_counter.py
 ```
 
 ---
@@ -124,3 +109,4 @@ If you find this project useful:
 ---
 
 🔥 This README is clean, well-structured, and GitHub-ready! 🚀 Let me know if you want any modifications. 🎯
+
